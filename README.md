@@ -17,6 +17,9 @@ This little PLC have 8 inputs and 4 relay outputs.
 This is the program in LOGO PLC. In top is sender that sends coil 10 evry seconds. Next section test coil 11 and connect it to relay 1 in LOGO.
 LOGO have IP 192.168.0.3 in this case but it not important. Coilnumbers are not same in Arduino-world and LOGO-world. Coil 9 in Arduino is coil 10 in LOGO-world. (Little bit confusing)  
 
+![Pict 2022-03-17 10-13-45 004](https://user-images.githubusercontent.com/33222123/158785687-c8f41781-ab36-4a94-8fc2-a26f8471da5d.jpg)  
+LOGO!Soft Comfort is the program for LOGO PLC  
+
 
 ### Used Library  
 
