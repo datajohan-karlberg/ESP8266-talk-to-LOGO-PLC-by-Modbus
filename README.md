@@ -5,6 +5,9 @@ ESP8266 communicate with Siemens LOGO PLC by MODBUS
  Here is a sample how to sent input signal in LOGO to ESP8266 and also sent boolean value to relay output in LOGO PLC. That is send by modbus protocoll by WIFI.  
   I try same sample on EPS32, but it not work.
   
+  ![P2](https://user-images.githubusercontent.com/33222123/158785202-bf5052ea-0f37-49c7-bac1-4345cc040581.png)  
+
+    
   ### LOGO PLC from Siemens  
   ![Pict 2022-03-15 12-48-14 007](https://user-images.githubusercontent.com/33222123/158779894-762ebea4-df29-4cb7-b21e-b003c357471c.jpg)  
 This little PLC have 8 inputs and 4 relay outputs.  
