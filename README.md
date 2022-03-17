@@ -1,9 +1,9 @@
 # ESP8266-talk-to-LOGO-PLC-by-Modbus
-ESP8266 communicate with Siemens LOGO PLC by MODBUS 
+Here is a sample how to ESP8266 communicate with Siemens LOGO PLC by MODBUS 
   
  ### Description  
- Here is a sample how to read input signal in LOGO and send to ESP8266 and also sent boolean value from ESP8266 to relay output in LOGO PLC. That is send by modbus protocoll by WIFI.  
-  ESP8266 act as a slave/server (listen) and LOGO is master/client (sending). I try it on EPS32, but it not work there.
+ The sample show how to read input signal in LOGO and send to ESP8266 and also sent boolean value from ESP8266 to relay output in LOGO PLC. That is send by modbus protocoll by WIFI.  
+  ESP8266 act as a slave/server (listen) and LOGO is master/client (sending). It is ESP8266 that have the list of "coils". It is LOGO that contact ESP8266 and read/write coils. I try it on EPS32, but it not work there.
   
   ![P2](https://user-images.githubusercontent.com/33222123/158785202-bf5052ea-0f37-49c7-bac1-4345cc040581.png)  
 
